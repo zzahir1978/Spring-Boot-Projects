@@ -25,12 +25,12 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
   - GitLab:
     - Explore GitLab for source code management and CI/CD pipelines.
     - Learn how to clone repositories, create branches, merge requests, and manage projects in GitLab.
-3. Java Coding Convention
+#### 3. Java Coding Convention
   - Follow standard Java coding conventions to ensure readability and maintainability.
   - Naming conventions: Classes (PascalCase), methods and variables (camelCase), constants (UPPERCASE).
   - Code structure: Proper indentation, spacing, and use of comments.
   - Best practices: Write clean, modular, and well-documented code.
-4. Java Webapp Structure with Spring MVC
+##### 4. Java Webapp Structure with Spring MVC
   - Package Convention:
     - View: Controllers managing form submissions or API endpoints.
     - Service: Classes containing business logic.
@@ -45,7 +45,7 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
   - Messages Properties (Internationalization - i18n):
     - Use messages.properties files to support multiple languages.
     - Implement internationalization in your application to cater to a global audience.
-5. Frontend
+#### 5. Frontend
   - JSP (JavaServer Pages):
     - Understand how to create dynamic web pages using JSP.
     - Learn to use JSP tags and expressions to embed Java code in HTML.
@@ -59,7 +59,7 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
   - JavaScript:
     - Enhance interactivity and user experience with JavaScript.
     - Learn to manipulate the DOM and handle events.
-6. Spring
+#### 6. Spring
   - Controller:
     - Define Spring MVC controllers to handle HTTP requests and responses.
     - Use annotations like @Controller and @RequestMapping.
@@ -72,7 +72,7 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
   - REST API:
     - Build RESTful APIs using Spring Boot.
     - Test APIs using Postman or similar tools.
-7. Spring Data JPA (Hibernate)
+#### 7. Spring Data JPA (Hibernate)
   - Entity:
     - Define JPA entities with @Entity annotation.
     - Map entities to database tables using annotations like @Table, @Column.
@@ -82,7 +82,7 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
     - One To Many: @OneToMany
     - Many To One: @ManyToOne
     - Many To Many: @ManyToMany
-8. Unit Test
+#### 8. Unit Test
   - Test Resources:
     - Configure test-specific properties in application.properties or application.yml.
   - Test Purpose:
@@ -91,7 +91,7 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
   - Efficiency:
     - Run tests to quickly validate changes without deploying the application.
     - Save time by automating repetitive tasks.
-9. Logging
+#### 9. Logging
   - Best Practices:
     - Avoid using System.out.println. Use a logging framework like Logback or Log4j.
     - Configure logging levels (DEBUG, INFO, WARN, ERROR) in application.properties.
