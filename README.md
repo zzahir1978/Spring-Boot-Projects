@@ -10,14 +10,17 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
     - Learn how to use Maven for project management and build automation.
     - Understand the structure of a pom.xml file and how to define dependencies.
     - Familiarize yourself with common Maven commands (mvn clean install, mvn package, etc.).
+    - Download apache maven here: https://maven.apache.org/download.cgi
   - Tomcat:
     - Understand the role of Tomcat as a web server and servlet container.
     - Learn how to configure Tomcat to deploy Spring Boot applications.
     - Explore the basic configuration files (server.xml, context.xml).
+    - Download tomcat here: https://tomcat.apache.org/index.html
   - MySQL:
     - Install and configure MySQL database.
     - Learn how to create databases and tables.
     - Understand how to connect a Spring Boot application to MySQL using JDBC or JPA.
+    - Download mySQL here: https://www.mysql.com/downloads/
 #### 2. SVN, Gitlab
   - SVN:
     - Learn the basics of Subversion (SVN) for version control.
@@ -47,15 +50,18 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
     - Implement internationalization in your application to cater to a global audience.
 #### 5. Frontend
   - JSP (JavaServer Pages):
+    - Jakarta Server Pages (JSP; formerly JavaServer Pages) is a collection of technologies that helps software developers create dynamically generated web pages based on HTML, XML, SOAP, or other document types.
     - Understand how to create dynamic web pages using JSP.
     - Learn to use JSP tags and expressions to embed Java code in HTML.
   - JSTL (JavaServer Pages Standard Tag Library):
+    - JavaServer Pages Tag Library (JSTL) is a set of tags that can be used for implementing some common operations such as looping, conditional formatting, and others.
     - Use JSTL for common tasks like iteration, conditionals, and formatting.
   - DisplayTag:
     - Implement DisplayTag for table rendering and pagination in JSP pages.
   - Bootstrap:
     - Use Bootstrap for responsive and mobile-first front-end development.
     - Learn to apply Bootstrap components and CSS classes for styling.
+    - Visit bootstrap page here: https://getbootstrap.com/
   - JavaScript:
     - Enhance interactivity and user experience with JavaScript.
     - Learn to manipulate the DOM and handle events.
