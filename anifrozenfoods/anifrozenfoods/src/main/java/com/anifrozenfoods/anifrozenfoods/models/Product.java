@@ -1,7 +1,7 @@
 package com.anifrozenfoods.anifrozenfoods.models;
 
 import java.util.Date;
-
+import java.text.DecimalFormat;
 import jakarta.persistence.*;
 
 @Entity
@@ -60,7 +60,12 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
-        // this.price = Math.round(price * 100.00) / 100.00;
+    }
+
+    // New method to get formatted price
+    public String getFormattedPrice() {
+        DecimalFormat decimalFormat = new DecimalFormat("#,###.00");
+        return decimalFormat.format(price);
     }
 
     public String getDescription() {
