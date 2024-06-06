@@ -108,3 +108,6 @@ Basic Java Knowledge: Ensure you are comfortable with fundamental Java concepts 
     - Avoid using System.out.println. Use a logging framework like Logback or Log4j.
     - Configure logging levels (DEBUG, INFO, WARN, ERROR) in application.properties.
     - Use placeholders for logging messages to improve performance (logger.debug("Value: {}", value)).
+
+Notes:-
+1. In SpringSecurityConfig.java ; username == admin ; password == Def@u1tP@ssw0rd!
